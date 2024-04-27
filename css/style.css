@@ -9,6 +9,18 @@
 }
 
 
+/*** ALL THE COLORS  ***/
+
+:root {
+    --whiteColor: #fff;
+    --blackColor: #000;
+    --blueColor: #124e78;
+    --blue: #4f8286;
+    --grayColor: #c3c3c3;
+    --gray: #cccccc;
+}
+
+
 /*** BODY PROPERTIES ***/
 
 body {
