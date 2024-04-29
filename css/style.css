@@ -140,3 +140,41 @@ section {
     color: var(--whiteColor);
     background-color: var(--blueColor);
 }
+
+
+/*** ABOUT US ***/
+
+.about-us {
+    margin-top: 30px;
+    padding: 20px 150px;
+}
+
+.about-us h3 {
+    font-size: 2rem;
+    color: var(--blueColor);
+    font-family: "Lora", serif;
+}
+
+.about-us h4 {
+    width: 5.5rem;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 3px solid var(--blueColor);
+}
+
+.about-us div {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.about-us div p {
+    margin-top: 5px;
+}
+
+.about-us div i {
+    font-size: 2.8rem;
+    font-style: oblique;
+    color: var(--grayColor);
+}
