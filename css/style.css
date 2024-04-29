@@ -18,8 +18,7 @@
     --blackColor: #000;
     --blueColor: #124e78;
     --blue: #4f8286;
-    --grayColor: #c3c3c3;
-    --gray: #cccccc48;
+    --grayColor: #c3c3c352;
 }
 
 
@@ -28,7 +27,6 @@
 body {
     font-size: 1rem;
     font-family: "Plus Jakarta Sans", sans-serif;
-    background: linear-gradient(100deg, #ffffffa0, #000000c8);
 }
 
 
@@ -40,7 +38,7 @@ header {
     padding: 30px 150px;
     position: fixed;
     width: 100%;
-    z-index: 2;
+    z-index: 3;
     justify-content: space-between;
 }
 
@@ -56,6 +54,14 @@ header .header-items {
 
 header .header-items a {
     color: var(--whiteColor);
+}
+
+
+/*** SECTION ***/
+
+section {
+    padding-bottom: 20px;
+    background-color: var(--whiteColor);
 }
 
 
@@ -88,7 +94,7 @@ header .header-items a {
     align-items: flex-end;
     justify-content: center;
     padding: 20px 150px;
-    color: var(--grayColor);
+    color: var(--whiteColor);
     background: linear-gradient(100deg, #ffffffa0, #000000c8);
 }
 
@@ -102,4 +108,34 @@ header .header-items a {
     width: 40rem;
     margin-top: 15px;
     text-align: right;
+}
+
+
+/*** ADVANTAGES OF THE SYSTEM ***/
+
+.system-advantages {
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+.system-items {
+    display: flex;
+    margin-top: -50px;
+    box-shadow: 0px 5px 10px var(--grayColor);
+}
+
+.system-items div {
+    width: 100%;
+    padding: 20px 30px;
+    text-align: center;
+    background-color: var(--whiteColor);
+}
+
+.system-items div i {
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: var(--whiteColor);
+    background-color: var(--blueColor);
 }
