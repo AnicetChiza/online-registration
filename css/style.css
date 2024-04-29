@@ -17,7 +17,7 @@
     --blueColor: #124e78;
     --blue: #4f8286;
     --grayColor: #c3c3c3;
-    --gray: #cccccc;
+    --gray: #cccccc48;
 }
 
 
@@ -26,4 +26,25 @@
 body {
     font-size: 1rem;
     font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+
+/*** header ***/
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 30px 40px;
+    justify-content: space-between;
+    box-shadow: 0px 5px 10px var(--gray);
+}
+
+header img {
+    width: 90px;
+}
+
+header .header-items {
+    display: flex;
+    gap: 20px;
+    -webkit-column-gap: 20px;
 }
