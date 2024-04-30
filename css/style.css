@@ -60,7 +60,6 @@ header .header-items a {
 /*** SECTION ***/
 
 section {
-    padding-bottom: 20px;
     background-color: var(--whiteColor);
 }
 
@@ -290,3 +289,6 @@ span {
     font-family: "Lora", serif;
     -webkit-column-gap: 20px;
 }
+
+
+/*** CONCTACT ***/
