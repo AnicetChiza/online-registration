@@ -21,6 +21,11 @@
     --grayColor: #c3c3c352;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
 
 /*** BODY PROPERTIES ***/
 
