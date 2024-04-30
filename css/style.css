@@ -238,12 +238,15 @@ section {
 
 .wrapper-container .counter i {
     font-size: 2rem;
+    margin-bottom: 5px;
     color: var(--blueColor);
 }
 
-.wrapper-container .counter p {
+.wrapper-container .counter p,
+span {
     font-size: 1.5rem;
     font-style: italic;
     color: var(--blueColor);
+    font-weight: 700;
     font-family: "Lora", serif;
 }
