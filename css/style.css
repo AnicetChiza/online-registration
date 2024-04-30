@@ -374,3 +374,23 @@ form button {
     color: var(--whiteColor);
     background-color: var(--blueColor);
 }
+
+
+/*** FOOTER ***/
+
+footer {
+    margin-top: 20px;
+    padding: 40px 40px;
+    color: var(--whiteColor);
+    font-size: 1.5rem;
+    text-align: center;
+    font-style: italic;
+    font-weight: 700;
+    font-family: "Lora", serif;
+    background-color: var(--blueColor);
+}
+
+footer p {
+    font-size: 1rem;
+    color: var(--grayColor);
+}
