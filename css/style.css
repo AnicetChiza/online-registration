@@ -100,6 +100,7 @@ section {
 
 .home-page div h2 {
     font-size: 2.8rem;
+    font-style: italic;
     font-family: "Lora", serif;
 }
 
@@ -151,6 +152,7 @@ section {
 
 .about-us h3 {
     font-size: 2rem;
+    font-style: italic;
     color: var(--blueColor);
     font-family: "Lora", serif;
 }
@@ -190,6 +192,7 @@ section {
 
 .mission h3 {
     font-size: 2rem;
+    font-style: italic;
     color: var(--blueColor);
     font-family: "Lora", serif;
 }
@@ -206,5 +209,6 @@ section {
     display: flex;
     align-items: center;
     font-style: italic;
+    font-size: 1.1rem;
     font-family: 'Lora', serif;
 }
