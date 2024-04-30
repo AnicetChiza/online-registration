@@ -285,8 +285,8 @@ span {
 .principles-items {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
     font-style: italic;
     font-family: "Lora", serif;
-    -webkit-column-gap: 10px;
+    -webkit-column-gap: 20px;
 }
