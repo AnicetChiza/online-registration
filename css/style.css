@@ -212,3 +212,38 @@ section {
     font-size: 1.1rem;
     font-family: 'Lora', serif;
 }
+
+
+/*** Wrapper counter ***/
+
+.wrapper {
+    padding: 20px 150px;
+    margin-top: 70px;
+}
+
+.wrapper-container {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    justify-content: space-between;
+}
+
+.wrapper-container .counter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+}
+
+.wrapper-container .counter i {
+    font-size: 2rem;
+    color: var(--blueColor);
+}
+
+.wrapper-container .counter p {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--blueColor);
+    font-family: "Lora", serif;
+}
