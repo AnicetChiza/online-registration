@@ -292,3 +292,40 @@ span {
 
 
 /*** CONCTACT ***/
+
+.contact-us {
+    padding: 20px 150px;
+}
+
+.contact-us h3 {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: center;
+    color: var(--blueColor);
+    font-family: "Lora", serif;
+}
+
+.contact-us h4 {
+    width: 5.5rem;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin: auto;
+    margin-bottom: 2px;
+    border: 3px solid var(--blueColor);
+}
+
+.bloc-contact .items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: "Lora", serif;
+    font-style: italic;
+    -webkit-column-gap: 10px;
+}
+
+.bloc-contact .items i {
+    padding: 20px 20px;
+    border-radius: 50%;
+    color: var(--blueColor);
+    background-color: var(--grayColor);
+}
