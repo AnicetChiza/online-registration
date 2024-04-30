@@ -364,7 +364,6 @@ textarea {
 form button {
     border: none;
     outline: none;
-    margin: auto;
     margin-top: 10px;
     background: unset;
     padding: 15px 20px;
