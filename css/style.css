@@ -250,3 +250,43 @@ span {
     font-weight: 700;
     font-family: "Lora", serif;
 }
+
+
+/*** OUR PRINCIPLES ***/
+
+.principles {
+    padding: 20px 150px;
+    margin-top: 70px;
+    background-color: var(--grayColor);
+}
+
+.principles h3 {
+    font-size: 2rem;
+    font-style: italic;
+    text-align: end;
+    color: var(--blueColor);
+    font-family: "Lora", serif;
+}
+
+.principles h4 {
+    width: 5.5rem;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    text-align: end;
+    border: 3px solid var(--blueColor);
+}
+
+.princ {
+    display: flex;
+    justify-content: space-between;
+}
+
+.principles-items {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-style: italic;
+    font-family: "Lora", serif;
+    -webkit-column-gap: 10px;
+}
