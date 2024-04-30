@@ -314,10 +314,19 @@ span {
     border: 3px solid var(--blueColor);
 }
 
+.contact-container {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin-top: 20px;
+    -webkit-column-gap: 40px;
+}
+
 .bloc-contact .items {
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 10px;
     font-family: "Lora", serif;
     font-style: italic;
     -webkit-column-gap: 10px;
@@ -328,4 +337,26 @@ span {
     border-radius: 50%;
     color: var(--blueColor);
     background-color: var(--grayColor);
+}
+
+.contact-form {
+    flex-grow: 1;
+}
+
+form input,
+textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: unset;
+    padding: 10px 15px;
+    margin-top: 10px;
+    font-family: "Lora", serif;
+    border: 1px solid var(--grayColor);
+}
+
+.form-input {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
 }
