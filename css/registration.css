@@ -106,8 +106,15 @@ form button {
     border: 1px solid var(--grayColor);
 }
 
+.student-identity {
+    display: grid;
+    margin: auto;
+    gap: 20px;
+    grid-template-columns: auto auto auto auto;
+}
+
 .student-information img {
-    width: 25rem;
+    width: 20rem;
 }
 
 .student-information div {
@@ -128,4 +135,21 @@ form button {
     gap: 10px;
     -webkit-column-gap: 10px;
     justify-content: flex-end;
+}
+
+.buttons button {
+    border: none;
+    outline: none;
+    background: unset;
+    padding: 15px 15px;
+    border-radius: 50%;
+    background-color: var(--grayColor);
+}
+
+.buttons button .delete {
+    color: #ab4242;
+}
+
+.buttons button .agree {
+    color: var(--blueColor);
 }
