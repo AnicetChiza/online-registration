@@ -64,7 +64,7 @@ header .header-items a {
 .header-color {
     transition: 0.3s;
     transition-delay: 0.2s;
-    background-color: var(--blueColor);
+    background-color: var(--grayColor);
 }
 
 
