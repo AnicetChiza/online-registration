@@ -120,4 +120,12 @@ form button {
 .student-information div p {
     color: var(--blueColor);
     font-weight: 700;
+    font-style: italic;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    -webkit-column-gap: 10px;
+    justify-content: flex-end;
 }
