@@ -106,6 +106,12 @@ form button {
     border: 1px solid var(--grayColor);
 }
 
+.student-information:hover {
+    transition: 0.8s;
+    transition-delay: 0.2s;
+    transform: translateY(10px);
+}
+
 .student-identity {
     display: grid;
     margin: auto;
