@@ -206,10 +206,20 @@ form button {
 }
 
 .login-items {
-    padding: 25px 25px;
+    padding: 40px 50px;
+    border: 1px solid var(--grayColor);
+}
+
+.login-items h3 {
+    font-size: 1.3rem;
+    font-style: italic;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--blueColor);
 }
 
 .input-content input {
     border: none;
     margin-top: 0;
+    width: 100%;
 }
