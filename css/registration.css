@@ -79,3 +79,16 @@ form input {
     display: flex;
     flex-direction: column;
 }
+
+form button {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-style: italic;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-family: "Lora", serif;
+    color: var(--whiteColor);
+    background-color: var(--blueColor);
+}

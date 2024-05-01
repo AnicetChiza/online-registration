@@ -18,6 +18,7 @@
     --blackColor: #000;
     --blueColor: #124e78;
     --blue: #4f8286;
+    --gray: #b4b2b2eb;
     --grayColor: #c3c3c352;
 }
 
@@ -64,7 +65,11 @@ header .header-items a {
 .header-color {
     transition: 0.3s;
     transition-delay: 0.2s;
-    background-color: var(--grayColor);
+    background-color: var(--gray);
+}
+
+.link {
+    color: var(--blueColor);
 }
 
 
