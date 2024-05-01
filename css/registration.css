@@ -114,13 +114,14 @@ form button {
 }
 
 .student-information img {
-    width: 20rem;
+    width: 19rem;
 }
 
 .student-information div {
     display: flex;
     gap: 10px;
     margin-top: 10px;
+    font-size: 0.9rem;
     -webkit-column-gap: 10px;
 }
 
