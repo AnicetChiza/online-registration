@@ -33,10 +33,10 @@ body {
 /*** FORM ***/
 
 .student-registration {
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 40px 40px;
 }
 
 .registration-items {
