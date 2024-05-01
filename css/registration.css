@@ -26,5 +26,31 @@
 
 body {
     font-size: 1rem;
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Lora", serif;
+}
+
+
+/*** FORM ***/
+
+.student-registration {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.registration-items {
+    width: 40rem;
+    padding: 30px 30px;
+    background-color: var(--whiteColor);
+    box-shadow: 0px 15px 20px var(--grayColor);
+}
+
+.registration-items h3 {
+    font-size: 1.5rem;
+    color: var(--blueColor);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-style: italic;
+    text-align: center;
 }
