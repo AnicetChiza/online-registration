@@ -54,3 +54,28 @@ body {
     font-style: italic;
     text-align: center;
 }
+
+form label {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 17px;
+    color: var(--blueColor);
+    font-style: italic;
+    font-size: 0.8rem;
+    background-color: var(--whiteColor);
+}
+
+form input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 15px;
+    margin-top: 15px;
+    font-family: "Lora", serif;
+    border: 0.8px solid var(--grayColor);
+}
+
+.input-content .all-inputs {
+    display: flex;
+    flex-direction: column;
+}
