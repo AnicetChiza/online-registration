@@ -160,3 +160,28 @@ form button {
 .buttons button .agree {
     color: var(--blueColor);
 }
+
+
+/*** REGISTRATION ***/
+
+.login-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-section .login {
+    display: flex;
+}
+
+.input-content .all-inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid var(--grayColor);
+}
+
+.input-content input {
+    border: none;
+}
