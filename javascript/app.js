@@ -30,15 +30,12 @@ document.addEventListener('DOMContentLoaded', startValueAnimation);
 //Header changing background
 jQuery(function($) {
     const $header = $('header');
-    const $list = $('.header-items .link');
     $(window).scroll(function(event) {
         const $current = $(this).scrollTop();
         if ($current > 150) {
             $header.addClass('header-color');
-            $list.addClass('link-color'); // Utilisez $listItems ici au lieu de $listItem
         } else {
             $header.removeClass('header-color');
-            $list.removeClass('link-color'); // Utilisez $listItems ici au lieu de $listItem
         }
     });
 });
