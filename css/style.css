@@ -65,10 +65,10 @@ header .header-items a {
 .header-color {
     transition: 0.3s;
     transition-delay: 0.2s;
-    background-color: var(--gray);
+    background: linear-gradient(100deg, #b4b2b2eb, #000000c8);
 }
 
-.link {
+.link-color {
     color: var(--blueColor);
 }
 
