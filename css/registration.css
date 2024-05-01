@@ -102,7 +102,12 @@ form button {
 
 .student-information {
     padding: 20px 20px;
+    width: fit-content;
     border: 1px solid var(--grayColor);
+}
+
+.student-information img {
+    width: 25rem;
 }
 
 .student-information div {
@@ -112,4 +117,7 @@ form button {
     -webkit-column-gap: 10px;
 }
 
-.student-information img {}
+.student-information div p {
+    color: var(--blueColor);
+    font-weight: 700;
+}
