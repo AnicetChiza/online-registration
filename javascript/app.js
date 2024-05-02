@@ -1,3 +1,5 @@
+// Événement de chargement de la page
+document.addEventListener('DOMContentLoaded', startValueAnimation);
 // Fonction pour démarrer l'animation des valeurs
 function startValueAnimation() {
     let valueDisplays = document.querySelectorAll('.num');
@@ -24,6 +26,7 @@ function startValueAnimation() {
     });
 }
 
+
 //SHOWING INPUT PASSWORD
 let passwords = document.querySelector('.password');
 let openIcon = document.querySelector('.open');
@@ -42,6 +45,3 @@ closeIcon.onclick = function() {
     openIcon.classList.remove('hidden');
     closeIcon.classList.add('hidden');
 }
-
-// Événement de chargement de la page
-document.addEventListener('DOMContentLoaded', startValueAnimation);
