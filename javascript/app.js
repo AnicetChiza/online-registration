@@ -24,18 +24,21 @@ function startValueAnimation() {
     });
 }
 
-// Événement de chargement de la page
-document.addEventListener('DOMContentLoaded', startValueAnimation);
+//SHOWING INPUT PASSWORD
+let passwords = document.querySelector('.password');
+let openIcon = document.querySelector('.open');
+let closeIcon = document.querySelector('.close');
 
-//Header changing background
-jQuery(function($) {
-    const $header = $('header');
-    $(window).scroll(function(event) {
-        const $current = $(this).scrollTop();
-        if ($current > 150) {
-            $header.addClass('header-color');
-        } else {
-            $header.removeClass('header-color');
-        }
-    });
-});
+passwords.setAttribute('type', 'password');
+
+openIcon.onclick = function() {
+    passwords.setAttribute('type', 'text');
+    openIcon.classList.add('hidden');
+    closeIcon.classList.remove('hidden');
+}
+
+closeIcon.onclick = function() {
+    passwords.setAttribute('type', 'password');
+    openIcon.classList.remove('hidden');
+    closeIcon.classList.add('hidden');
+}
