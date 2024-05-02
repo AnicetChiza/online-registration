@@ -30,6 +30,15 @@ body {
 }
 
 
+/*** HEADER AFTER REGISTRATION ***/
+
+header {
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+}
+
+
 /*** ADMIN HOPME PAGE ***/
 
 .home-page {
@@ -59,7 +68,7 @@ body {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    padding: 20px 150px;
+    padding: 20px 100px;
     color: var(--whiteColor);
     background: linear-gradient(100deg, #ffffffa0, #000000c8);
 }
