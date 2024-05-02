@@ -35,7 +35,16 @@ body {
 header {
     display: flex;
     padding: 10px 100px;
+    align-items: center;
     justify-content: space-between;
+}
+
+.header-items,
+.registration-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    -webkit-column-gap: 10px;
 }
 
 
