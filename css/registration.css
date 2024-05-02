@@ -30,6 +30,54 @@ body {
 }
 
 
+/*** ADMIN HOPME PAGE ***/
+
+.home-page {
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    animation-delay: 0.8s;
+    animation: animate 5s linear infinite;
+    background-image: url('../images/imagevector.jpg');
+    clip-path: polygon(0 0, 100% 0, 100% 77%, 0 60%);
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+
+.home-page div {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 20px 150px;
+    color: var(--whiteColor);
+    background: linear-gradient(100deg, #ffffffa0, #000000c8);
+}
+
+.home-page div h2 {
+    font-size: 2.8rem;
+    font-style: italic;
+    font-family: "Lora", serif;
+}
+
+.home-page div p {
+    font-size: 1.3rem;
+    width: 40rem;
+    margin-top: 15px;
+    text-align: right;
+}
+
+
 /*** FORM ***/
 
 .student-registration {
@@ -97,7 +145,7 @@ form button {
 /*** STUDENT REGISTRATION ADMIN PART ***/
 
 .all-students {
-    padding: 50px 50px;
+    padding: 0px 80px;
 }
 
 .student-information {
@@ -259,64 +307,4 @@ form button {
     border-radius: 5px;
     margin-top: 30px;
     text-transform: uppercase;
-}
-
-
-/*** ADMIN HOPME PAGE ***/
-
-.home-page {
-    width: 100%;
-    height: 70vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    animation-delay: 0.8s;
-    animation: animate 5s linear infinite;
-    background-image: url('../images/imagevector.jpg');
-    clip-path: polygon(0 0, 100% 0, 100% 77%, 0 47%);
-}
-
-@keyframes animate {
-    0% {
-        transform: translateY(-10px);
-    }
-    50% {
-        transform: translateY(10px);
-    }
-}
-
-.home-page div {
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    padding: 20px 150px;
-    color: var(--whiteColor);
-    background: linear-gradient(100deg, #ffffffa0, #000000c8);
-}
-
-.home-page div h2 {
-    font-size: 2.8rem;
-    font-style: italic;
-    font-family: "Lora", serif;
-}
-
-.home-page div p {
-    font-size: 1.3rem;
-    width: 40rem;
-    margin-top: 15px;
-    text-align: right;
-}
-
-.home-page div a {
-    color: var(--whiteColor);
-    margin-top: 40px;
-    font-size: 1.2rem;
-    padding: 15px 20px;
-    border-radius: 30px;
-    font-style: italic;
-    font-weight: 700;
-    font-family: "Lora", serif;
-    background-color: var(--grayColor);
 }
