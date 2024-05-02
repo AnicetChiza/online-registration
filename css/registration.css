@@ -36,15 +36,21 @@ header {
     display: flex;
     padding: 10px 100px;
     align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
     justify-content: space-between;
 }
 
-.header-items,
-.registration-search {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    -webkit-column-gap: 10px;
+.header-items button {
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-family: "Lora", serif;
+    background: var(--whiteColor);
 }
 
 
