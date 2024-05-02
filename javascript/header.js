@@ -1,6 +1,3 @@
-// Événement de chargement de la page
-document.addEventListener('DOMContentLoaded', startValueAnimation);
-
 //Header changing background
 jQuery(function($) {
     const $header = $('header');

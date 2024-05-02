@@ -42,3 +42,6 @@ closeIcon.onclick = function() {
     openIcon.classList.remove('hidden');
     closeIcon.classList.add('hidden');
 }
+
+// Événement de chargement de la page
+document.addEventListener('DOMContentLoaded', startValueAnimation);
