@@ -34,7 +34,7 @@ body {
 
 header {
     display: flex;
-    padding: 10px 100px;
+    padding: 20px 100px;
     align-items: center;
     width: 100%;
     position: fixed;
@@ -49,8 +49,14 @@ header {
     font-size: 1.1rem;
     padding: 15px 20px;
     border-radius: 25px;
+    font-style: italic;
+    color: var(--blueColor);
     font-family: "Lora", serif;
     background: var(--whiteColor);
+}
+
+.link-color {
+    color: var(--blueColor);
 }
 
 
