@@ -150,7 +150,7 @@ form input {
     outline: none;
     width: 100%;
     padding: 10px 15px;
-    margin-top: 15px;
+    margin-top: 20px;
     font-family: "Lora", serif;
     border: 0.8px solid var(--grayColor);
 }
