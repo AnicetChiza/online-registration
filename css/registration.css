@@ -137,12 +137,11 @@ header {
 
 form label {
     position: absolute;
-    margin-top: -30px;
-    margin-left: 5px;
+    margin-top: -1px;
+    margin-left: 15px;
     color: var(--blueColor);
     font-style: italic;
     font-size: 0.8rem;
-    background-color: var(--whiteColor);
 }
 
 form input {
@@ -150,7 +149,8 @@ form input {
     outline: none;
     width: 100%;
     padding: 10px 15px;
-    margin-top: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
     font-family: "Lora", serif;
     border: 0.8px solid var(--grayColor);
 }
