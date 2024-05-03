@@ -137,7 +137,7 @@ header {
 
 form label {
     position: absolute;
-    margin-top: -1px;
+    margin-top: 5px;
     margin-left: 15px;
     color: var(--blueColor);
     font-style: italic;
