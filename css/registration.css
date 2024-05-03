@@ -150,7 +150,7 @@ form input {
     outline: none;
     width: 100%;
     padding: 10px 15px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: "Lora", serif;
     border: 0.8px solid var(--grayColor);
 }
@@ -239,104 +239,4 @@ form button {
 
 .buttons button .agree {
     color: var(--blueColor);
-}
-
-
-/*** REGISTRATION ***/
-
-.login-section {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.login-section .login {
-    display: flex;
-}
-
-.login-message {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 20px;
-    font-style: italic;
-    color: var(--whiteColor);
-    background-color: var(--blueColor);
-}
-
-.login-message h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.login-message span {
-    padding: 10px 15px;
-    border-radius: 20px;
-    margin-top: 20px;
-    border: 1px solid var(--whiteColor);
-}
-
-.input-content {
-    margin-top: 10px;
-}
-
-.input-content .all-inputs {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 15px 15px;
-    width: 100%;
-    gap: 15px;
-    -webkit-column-gap: 15px;
-    box-shadow: 0px 5px 10px var(--grayColor);
-}
-
-.input-content .all-inputs i {
-    color: var(--blueColor);
-}
-
-.login-items {
-    padding: 50px 40px;
-    box-shadow: 0px 4px 10px var(--grayColor);
-}
-
-.eyes .hidden {
-    display: none;
-}
-
-.login-items h3 {
-    font-size: 1.3rem;
-    font-style: italic;
-    margin-bottom: 20px;
-    text-align: center;
-    color: var(--blueColor);
-}
-
-.forgotten-password {
-    display: flex;
-    gap: 5px;
-    -webkit-column-gap: 5px;
-    margin-top: 15px;
-    font-style: italic;
-    font-weight: 600;
-}
-
-.forgotten-password a {
-    color: var(--blueColor);
-}
-
-.input-content input {
-    border: none;
-    margin-top: 0;
-    width: 100%;
-    padding: 0;
-    font-size: 1rem;
-}
-
-.btn button {
-    border-radius: 5px;
-    margin-top: 30px;
-    text-transform: uppercase;
 }

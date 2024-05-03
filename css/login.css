@@ -102,6 +102,17 @@ body {
     color: var(--blueColor);
 }
 
+form input {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 15px 20px;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    font-family: "Lora", serif;
+    border: 0.8px solid var(--grayColor);
+}
+
 .forgotten-password {
     display: flex;
     gap: 5px;
