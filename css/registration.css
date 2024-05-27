@@ -240,3 +240,15 @@ form button {
 .buttons button .agree {
     color: var(--blueColor);
 }
+
+
+/* MEDIA QUERY FOR REGISTRATION */
+
+@media screen and (max-width: 500px) {
+    .student-registration {
+        padding: 0px;
+    }
+    .registration-items {
+        padding: 15px 15px;
+    }
+}
