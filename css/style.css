@@ -78,7 +78,7 @@ header .menu .exit-icon {
     display: none;
 }
 
-.toogle {
+.header-items.active {
     margin-right: 0;
 }
 
@@ -583,9 +583,9 @@ footer {
         display: flex;
         flex-direction: column;
         gap: 30px;
+        margin-right: 100%;
+        transition: all 0.4s ease-in;
         -webkit-column-gap: 30px;
-        transition: 0.8s ease-in;
-        margin-right: -100%;
         background-color: var(--whiteColor);
     }
     header .header-items a {
