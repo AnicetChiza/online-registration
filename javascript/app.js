@@ -26,9 +26,21 @@ function startValueAnimation() {
     });
 }
 
+//Header
+const listHeader = document.querySelector('.header-items');
+const menuIcon = document.querySelector('.menu-icon');
+const exit = document.querySelector('.exit-icon');
+
+if (openMenu) {
+    openMenu.addEventListener('click', () => {
+        listHeader.classList.add('toogle');
+        menuIcon.style.display = 'none';
+        exit.style.display = 'inline-block';
+    })
+}
 
 //SHOWING INPUT PASSWORD
-let passwords = document.querySelector('.password');
+let passwordInput = document.querySelector('.password');
 let openIcon = document.querySelector('.open');
 let closeIcon = document.querySelector('.close');
 
