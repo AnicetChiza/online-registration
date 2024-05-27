@@ -34,7 +34,7 @@ body {
 
 header {
     display: flex;
-    padding: 20px 100px;
+    padding: 15px 30px;
     align-items: center;
     width: 100%;
     position: fixed;
@@ -46,7 +46,6 @@ header {
     border: none;
     outline: none;
     font-weight: 700;
-    font-size: 1.1rem;
     padding: 15px 20px;
     border-radius: 25px;
     font-style: italic;
@@ -177,7 +176,7 @@ form button {
 /*** STUDENT REGISTRATION ADMIN PART ***/
 
 .all-students {
-    padding: 0px 80px;
+    padding: 0px 30px;
 }
 
 .student-information {
@@ -196,11 +195,12 @@ form button {
     display: grid;
     margin: auto;
     gap: 20px;
+    -webkit-column-gap: 20px;
     grid-template-columns: auto auto auto auto;
 }
 
 .student-information img {
-    width: 19rem;
+    width: 100%;
 }
 
 .student-information div {
@@ -250,5 +250,22 @@ form button {
     }
     .registration-items {
         padding: 15px 15px;
+    }
+}
+
+
+/* media query for student identity */
+
+@media screen and (max-width: 1135px) {
+    .student-identity {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .student-identity {
+        display: grid;
+        grid-template-columns: auto auto;
     }
 }
