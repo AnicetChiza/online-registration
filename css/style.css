@@ -106,7 +106,7 @@ section {
     justify-content: center;
     padding: 20px 150px;
     color: var(--whiteColor);
-    background: linear-gradient(100deg, #ffffffa0, #000000c8);
+    background: linear-gradient(100deg, #636262a0, #000000c8);
 }
 
 .home-page div h2 {
@@ -117,7 +117,7 @@ section {
 
 .home-page div p {
     font-size: 1.3rem;
-    width: 40rem;
+    width: 70%;
     margin-top: 15px;
     text-align: right;
 }
@@ -267,7 +267,6 @@ section {
 
 .wrapper-container .counter p,
 span {
-    font-size: 1.5rem;
     font-style: italic;
     color: var(--blueColor);
     font-weight: 700;
@@ -440,7 +439,6 @@ footer {
     margin-top: 20px;
     padding: 40px 40px;
     color: var(--whiteColor);
-    font-size: 1.5rem;
     text-align: center;
     font-style: italic;
     font-family: "Lora", serif;
@@ -463,9 +461,120 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
-    .mission-items {
+    .mission-items,
+    .principles-items {
         display: flex;
         margin-top: 30px;
         flex-direction: column;
     }
+    .mission h3,
+    .principles h3 {
+        text-align: center;
+    }
+    .mission h4,
+    .principles h4 {
+        margin: auto;
+    }
+    .system-advantages {
+        width: 90%;
+    }
 }
+
+@media screen and (max-width: 850px) {
+    .home-page div h2 {
+        font-size: 1.5rem;
+    }
+    .home-page div p {
+        font-size: 1rem;
+    }
+    .home-page div a {
+        font-size: 1rem;
+    }
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us h3,
+    .mission h3,
+    .principles h3,
+    .contact-us h3,
+    .message h3,
+    .wrapper-container .counter i {
+        font-size: 1.5rem;
+    }
+    .about-us h4,
+    .mission h4,
+    .principles h4,
+    .contact-us h4,
+    .message h4 {
+        width: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .home-page div p {
+        width: 100%;
+    }
+    .about-us div {
+        font-size: 1rem;
+    }
+    .about-us div i {
+        font-size: 1.5rem;
+    }
+    .system-items {
+        display: grid;
+        background: unset;
+        gap: 10px;
+        margin-top: 50px;
+        box-shadow: 0px 0px 0px 0px var(--grayColor);
+        grid-template-columns: auto auto;
+    }
+    .system-items div {
+        border-radius: 10px;
+        background-color: var(--whiteColor);
+        box-shadow: 0px 0px 8px 0px var(--grayColor);
+    }
+}
+
+@media screen and (max-width: 630px) {
+    header,
+    .home-page div,
+    .about-us,
+    .mission,
+    .wrapper,
+    .principles,
+    .contact-us {
+        padding: 20px 20px;
+    }
+    .mission img,
+    .principles-items img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .header-items {
+        display: none;
+    }
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        -webkit-column-gap: 5px;
+    }
+    .system-items {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .home-page div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background: linear-gradient(100deg, #000000c8, #636262a0);
+    }
+    .home-page div p {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 400px) {}
