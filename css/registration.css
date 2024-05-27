@@ -92,7 +92,7 @@ header {
     justify-content: center;
     padding: 20px 20px;
     color: var(--whiteColor);
-    background: linear-gradient(100deg, #ffffffa0, #000000c8);
+    background: linear-gradient(100deg, #636262a0, #000000c8);
 }
 
 .home-page div h2 {
@@ -281,7 +281,7 @@ form button {
     .home-page div {
         height: 50vh;
         align-items: flex-start;
-        background: linear-gradient(100deg, #000000c8, #ffffffa0);
+        background: linear-gradient(100deg, #636262a0, #000000c8);
     }
     .home-page div p {
         width: 100%;
