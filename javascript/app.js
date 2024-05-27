@@ -39,10 +39,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function setupMenuToggle() {
     const listHeader = document.querySelector('.header-items');
+    const myLinks = document.querySelectorAll('.link');
     const menuIcon = document.querySelector('.menu-icon');
     const exit = document.querySelector('.exit-icon');
 
-    if (menuIcon && exit && listHeader) {
+    if (menuIcon && exit && myLinks) {
         menuIcon.addEventListener('click', () => {
             listHeader.classList.add('active');
             menuIcon.style.display = 'none';
@@ -53,6 +54,14 @@ function setupMenuToggle() {
             listHeader.classList.remove('active');
             menuIcon.style.display = 'inline-block';
             exit.style.display = 'none';
+        });
+
+        myLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                listHeader.classList.remove('active');
+                menuIcon.style.display = 'inline-block';
+                exit.style.display = 'none';
+            });
         });
     }
 }
