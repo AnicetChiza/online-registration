@@ -41,15 +41,11 @@ body {
 header {
     display: flex;
     align-items: center;
-    padding: 30px 150px;
     position: fixed;
     width: 100%;
     z-index: 3;
+    padding: 20px 150px;
     justify-content: space-between;
-}
-
-header img {
-    width: 90px;
 }
 
 header .header-items {
@@ -66,6 +62,20 @@ header .header-items a {
     transition: 0.3s;
     transition-delay: 0.2s;
     background: linear-gradient(100deg, #b4b2b2eb, #000000c8);
+}
+
+header .menu i {
+    padding: 10px 10px;
+    color: var(--whiteColor);
+    background-color: var(--grayColor);
+}
+
+header .menu .menu-icon {
+    display: none;
+}
+
+header .menu .exit-icon {
+    display: none;
 }
 
 
@@ -456,7 +466,7 @@ footer {
     .wrapper,
     .principles,
     .contact-us {
-        padding: 30px 50px;
+        padding: 20px 50px;
     }
 }
 
