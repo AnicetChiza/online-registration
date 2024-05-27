@@ -103,7 +103,7 @@ header {
 
 .home-page div p {
     font-size: 1.3rem;
-    width: 40rem;
+    width: 60%;
     margin-top: 15px;
     text-align: right;
 }
@@ -273,5 +273,21 @@ form button {
     }
     .home-page div p {
         font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .home-page div {
+        height: 50vh;
+        align-items: flex-start;
+        background: linear-gradient(100deg, #000000c8, #ffffffa0);
+    }
+    .home-page div p {
+        width: 100%;
+        text-align: left;
+    }
+    .student-identity {
+        display: grid;
+        grid-template-columns: auto;
     }
 }
