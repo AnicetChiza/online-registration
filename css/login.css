@@ -155,7 +155,11 @@ form input {
 
 @media screen and (max-width: 730px) {
     .login-section .login {
+        width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .login-items {
+        padding: 50px 20px;
     }
 }
