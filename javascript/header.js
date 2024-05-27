@@ -10,16 +10,3 @@ jQuery(function($) {
         }
     });
 });
-
-//Header
-const allItems = document.querySelector('.header-items');
-const openMenu = document.querySelector('.menu-icon');
-const closeMenu = document.querySelector('.exit-icon');
-
-if (openMenu) {
-    openMenu.addEventListener('click', () => {
-        allItems.classList.add('toogle');
-        openMenu.style.display = 'none';
-        closeMenu.style.display = 'inline-block';
-    })
-}
