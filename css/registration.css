@@ -90,7 +90,7 @@ header {
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    padding: 20px 100px;
+    padding: 20px 20px;
     color: var(--whiteColor);
     background: linear-gradient(100deg, #ffffffa0, #000000c8);
 }
@@ -267,5 +267,11 @@ form button {
     .student-identity {
         display: grid;
         grid-template-columns: auto auto;
+    }
+    .home-page div h2 {
+        font-size: 1.5rem;
+    }
+    .home-page div p {
+        font-size: 1rem;
     }
 }
