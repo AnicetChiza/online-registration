@@ -187,7 +187,6 @@ section {
 
 .about-us h3 {
     font-size: 2rem;
-    font-style: italic;
     color: var(--blueColor);
     font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -203,7 +202,7 @@ section {
 
 .about-us div {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .about-us div p {
@@ -226,7 +225,6 @@ section {
 
 .mission h3 {
     font-size: 2rem;
-    font-style: italic;
     color: var(--blueColor);
     font-family: "Plus Jakarta Sans", sans-serif;
 }
@@ -292,7 +290,6 @@ span {
 
 .principles h3 {
     font-size: 2rem;
-    font-style: italic;
     text-align: end;
     color: var(--blueColor);
     font-family: "Plus Jakarta Sans", sans-serif;
@@ -329,7 +326,6 @@ span {
 
 .contact-us h3 {
     font-size: 2rem;
-    font-style: italic;
     text-align: center;
     color: var(--blueColor);
 }
