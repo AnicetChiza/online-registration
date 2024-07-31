@@ -433,8 +433,6 @@ form .btn-submit button {
     background: unset;
     padding: 15px 20px;
     border-radius: 25px;
-    font-style: oblique;
-    font-weight: 700;
     color: var(--whiteColor);
     background-color: var(--blueColor);
     font-family: "Plus Jakarta Sans", sans-serif;
