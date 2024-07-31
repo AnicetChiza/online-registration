@@ -265,18 +265,7 @@ form button {
 
 /* media query for student identity */
 
-@media screen and (max-width: 1135px) {
-    .student-identity {
-        display: grid;
-        grid-template-columns: auto auto auto;
-    }
-}
-
 @media screen and (max-width: 870px) {
-    .student-identity {
-        display: grid;
-        grid-template-columns: auto auto;
-    }
     .home-page div h2 {
         font-size: 1.5rem;
     }
