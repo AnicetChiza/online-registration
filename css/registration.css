@@ -48,10 +48,9 @@ header {
     font-weight: 700;
     padding: 15px 20px;
     border-radius: 25px;
-    font-style: italic;
     color: var(--blueColor);
-    font-family: "Lora", serif;
     background: var(--whiteColor);
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .header-color {
@@ -96,14 +95,13 @@ header {
 }
 
 .home-page div h2 {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-style: italic;
-    font-family: "Lora", serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .home-page div p {
-    font-size: 1.3rem;
-    width: 60%;
+    width: 50%;
     margin-top: 15px;
     text-align: right;
 }
@@ -139,7 +137,6 @@ form label {
     margin-top: 5px;
     margin-left: 15px;
     color: var(--blueColor);
-    font-style: italic;
     font-size: 0.8rem;
 }
 
@@ -150,8 +147,8 @@ form input {
     padding: 10px 15px;
     margin-top: 15px;
     border-radius: 5px;
-    font-family: "Lora", serif;
     border: 0.8px solid var(--grayColor);
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .input-content .all-inputs {
@@ -163,13 +160,11 @@ form button {
     border: none;
     outline: none;
     width: 100%;
-    font-style: italic;
-    font-weight: 700;
     margin-top: 10px;
     padding: 10px 15px;
-    font-family: "Lora", serif;
     color: var(--whiteColor);
     background-color: var(--blueColor);
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 
