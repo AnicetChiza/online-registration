@@ -126,7 +126,7 @@ section {
 .home-page div h2 {
     font-size: 2.8rem;
     font-style: italic;
-    font-family: "Lora", serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .home-page div p {
@@ -144,8 +144,8 @@ section {
     border-radius: 30px;
     font-style: italic;
     font-weight: 700;
-    font-family: "Lora", serif;
     background-color: var(--grayColor);
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 
@@ -191,7 +191,7 @@ section {
     font-size: 2rem;
     font-style: italic;
     color: var(--blueColor);
-    font-family: "Lora", serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .about-us h4 {
@@ -214,7 +214,6 @@ section {
 
 .about-us div i {
     font-size: 2.8rem;
-    font-style: oblique;
     color: var(--grayColor);
 }
 
@@ -231,7 +230,7 @@ section {
     font-size: 2rem;
     font-style: italic;
     color: var(--blueColor);
-    font-family: "Lora", serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .mission h4 {
@@ -247,7 +246,6 @@ section {
     align-items: center;
     font-style: italic;
     font-size: 1.1rem;
-    font-family: 'Lora', serif;
 }
 
 
@@ -281,10 +279,8 @@ section {
 
 .wrapper-container .counter p,
 span {
-    font-style: italic;
     color: var(--blueColor);
     font-weight: 700;
-    font-family: "Lora", serif;
 }
 
 
@@ -301,7 +297,7 @@ span {
     font-style: italic;
     text-align: end;
     color: var(--blueColor);
-    font-family: "Lora", serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .principles h4 {
@@ -323,7 +319,6 @@ span {
     align-items: center;
     gap: 20px;
     font-style: italic;
-    font-family: "Lora", serif;
     -webkit-column-gap: 20px;
 }
 
@@ -339,7 +334,6 @@ span {
     font-style: italic;
     text-align: center;
     color: var(--blueColor);
-    font-family: "Lora", serif;
 }
 
 .contact-us h4 {
@@ -364,9 +358,9 @@ span {
     align-items: center;
     gap: 10px;
     margin-top: 10px;
-    font-family: "Lora", serif;
-    font-style: italic;
+    font-size: 0.8rem;
     -webkit-column-gap: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .bloc-contact .items i {
@@ -393,7 +387,7 @@ span {
     font-style: italic;
     text-align: center;
     color: var(--blueColor);
-    font-family: "Lora", serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .message h4 {
@@ -417,8 +411,8 @@ textarea {
     background: unset;
     padding: 15px 20px;
     margin-top: 10px;
-    font-family: "Lora", serif;
     border: 1px solid var(--grayColor);
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .form-input {
@@ -441,9 +435,9 @@ form .btn-submit button {
     border-radius: 25px;
     font-style: oblique;
     font-weight: 700;
-    font-family: "Lora", serif;
     color: var(--whiteColor);
     background-color: var(--blueColor);
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 
@@ -455,8 +449,8 @@ footer {
     color: var(--whiteColor);
     text-align: center;
     font-style: italic;
-    font-family: "Lora", serif;
     background-color: var(--blueColor);
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 
