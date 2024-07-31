@@ -234,6 +234,13 @@ form button {
     background-color: var(--grayColor);
 }
 
+.buttons a i {
+    color: var(--blueColor);
+    padding: 15px 15px;
+    border-radius: 50%;
+    background-color: var(--grayColor);
+}
+
 .buttons button .delete {
     color: #ab4242;
 }
