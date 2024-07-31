@@ -213,7 +213,6 @@ form button {
 .student-information div p {
     color: var(--blueColor);
     font-weight: 700;
-    font-style: italic;
 }
 
 .buttons {
