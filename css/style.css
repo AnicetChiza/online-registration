@@ -124,14 +124,13 @@ section {
 }
 
 .home-page div h2 {
-    font-size: 2.8rem;
+    font-size: 2rem;
     font-style: italic;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .home-page div p {
-    font-size: 1.3rem;
-    width: 70%;
+    width: 50%;
     margin-top: 15px;
     text-align: right;
 }
@@ -139,7 +138,6 @@ section {
 .home-page div a {
     color: var(--whiteColor);
     margin-top: 40px;
-    font-size: 1.2rem;
     padding: 15px 20px;
     border-radius: 30px;
     font-style: italic;
