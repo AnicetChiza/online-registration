@@ -26,7 +26,7 @@
 
 body {
     font-size: 1rem;
-    font-family: "Lora", serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 
@@ -253,6 +253,11 @@ form button {
 
 .buttons button .agree {
     color: var(--blueColor);
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
 }
 
 .feedback button {
