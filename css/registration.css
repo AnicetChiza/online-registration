@@ -192,13 +192,17 @@ form button {
 }
 
 .student-identity {
-    gap: 20px;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 30px;
+    justify-content: center;
+    -webkit-column-gap: 10px;
 }
 
 .student-information img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
 }
 
