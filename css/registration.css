@@ -255,6 +255,15 @@ form button {
     color: var(--blueColor);
 }
 
+.feedback button {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: var(--whiteColor);
+    background-color: var(--blueColor);
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
 
 /* MEDIA QUERY FOR REGISTRATION */
 
