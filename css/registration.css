@@ -188,7 +188,7 @@ form button {
 .student-information:hover {
     transition: 0.8s;
     transition-delay: 0.2s;
-    transform: translateY(10px);
+    transform: translateY(5px);
 }
 
 .student-identity {
