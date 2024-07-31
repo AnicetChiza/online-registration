@@ -206,6 +206,11 @@ form button {
     object-fit: cover;
 }
 
+.student-information .profile {
+    width: 500px;
+    height: 300px;
+}
+
 .student-information div {
     display: flex;
     gap: 10px;
