@@ -332,8 +332,8 @@ form button {
 }
 
 .dashboard-container {
-    width: 200px;
-    height: 200px;
+    width: 230px;
+    height: 230px;
     display: flex;
     border-radius: 4px;
     text-align: center;
