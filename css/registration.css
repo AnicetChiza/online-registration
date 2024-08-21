@@ -312,7 +312,7 @@ form button {
 .logout-btn {
     width: 100%;
     display: flex;
-    padding: 25px 50px;
+    padding: 25px 80px;
     justify-content: flex-end;
     background: linear-gradient(100deg, #636262a0, #000000c8);
 }
