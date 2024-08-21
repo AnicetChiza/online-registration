@@ -350,3 +350,7 @@ form button {
     flex-direction: column;
     -webkit-column-gap: 10px;
 }
+
+.dashboard-container a p {
+    color: #c1c0c0;
+}
