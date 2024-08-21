@@ -310,6 +310,19 @@ form button {
 /----------------------- */
 
 .logout-btn {
-    padding: 25px 30px;
+    width: 100%;
+    display: flex;
+    padding: 25px 50px;
+    justify-content: flex-end;
     background: linear-gradient(100deg, #636262a0, #000000c8);
+}
+
+.logout-btn button {
+    border: none;
+    outline: none;
+    color: #124e78;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #fff;
+    font-family: "Plus Jakarta Sans", sans-serif;
 }
