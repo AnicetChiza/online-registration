@@ -330,3 +330,23 @@ form button {
 .dashboard {
     padding: 50px 50px 50px 50px;
 }
+
+.dashboard-container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 1px 10px #e0dddd;
+}
+
+.dashboard-container a {
+    display: flex;
+    gap: 10px;
+    color: #000000c8;
+    flex-direction: column;
+    -webkit-column-gap: 10px;
+}
