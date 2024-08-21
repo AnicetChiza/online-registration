@@ -331,10 +331,10 @@ form button {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 15px;
+    gap: 20px;
     justify-content: center;
-    padding: 50px 50px 50px 50px;
-    -webkit-column-gap: 15px;
+    padding: 40px 80px;
+    -webkit-column-gap: 20px;
 }
 
 .dashboard-container {
@@ -346,6 +346,8 @@ form button {
     align-items: center;
     justify-content: center;
     background-color: #fff;
+    transition-delay: 0.4s;
+    transition: 0.8s ease-in-out;
     box-shadow: 0px 1px 10px #eaeaea;
 }
 
@@ -359,4 +361,14 @@ form button {
 
 .dashboard-container a p {
     color: #c1c0c0;
+}
+
+.dashboard-container:hover {
+    transform: scale(1.1);
+    box-shadow: none;
+    background: linear-gradient(100deg, #636262a0, #000000c8);
+}
+
+.dashboard-container:hover a {
+    color: #fff;
 }
