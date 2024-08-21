@@ -303,3 +303,13 @@ form button {
         grid-template-columns: auto;
     }
 }
+
+
+/*----------------------- /
+#Dashboard
+/----------------------- */
+
+.logout-btn {
+    padding: 25px 30px;
+    background: linear-gradient(100deg, #636262a0, #000000c8);
+}
