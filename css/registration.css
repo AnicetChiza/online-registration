@@ -326,3 +326,7 @@ form button {
     background-color: #fff;
     font-family: "Plus Jakarta Sans", sans-serif;
 }
+
+.dashboard {
+    padding: 50px 50px 50px 50px;
+}
